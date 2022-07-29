@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Would you rather?</title>
+    <link id="tabIcon" rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body onload="start_quiz()">
+    <div class="about">
+        <div class="logo">
+            <h1>
+                Would you rather
+                <img src="img/logo.png" width="5%" />
+            </h1>
+        </div>
+        <h2>Welcome to "Would you rather?" website</h2>
+        <h4>
+            <p class="lead">This website get list of question and ask you waht you rather and show you how many
+                think
+                like you.</p>
+        </h4>
+        <h5>
+            <p>© all rights reserved to <a href="https://github.com/DvirYotvat" target="_blank">Dvir Yotvat</a>.
+        </h5>
+        </p>
+    </div>
+
+    <main>
+        <div class="questions">
+            <div class="question_border">
+                <div id="insert_questions"></div>
+            </div>
+            <div id="next_prev_btns">
+                <button type="button" id="nextBtn">
+                    Next
+                </button>
+                <button type="button" id="prevBtn">
+                    prev
+                </button>
+            </div>
+        </div>
+        <div id="clicksChartInsert">
+        </div>
+    </main>
+</body>
+
+</html>
